@@ -24,10 +24,4 @@ app.post('/api/fileanalyse', upload.single('upfile'), asyncHandler(async (req, r
   res.json({ filename, bytes })
 }))
 
-// error handling
-app.use(async (err, req, res, next) => {
-  console.log('This is the invalid field ->', err.field)
-  next(err)
-})
-
 module.exports = { app }
