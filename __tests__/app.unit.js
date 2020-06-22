@@ -10,3 +10,17 @@ describe('Test Homepage', () => {
     done()
   })
 })
+
+describe('Test /api/fileanalyse', () => {
+  test('It should respond to the post method', async done => {
+    const testfile = 'testfile.txt'
+    const response = await request(app)
+      .post('/api/fileanalyse').attach('upfile', `${__dirname}/testfile.txt`)
+    const body = response.body
+
+    expect(response.statusCode).toBe(200)
+    expect(body.filename).toBe(testfile)
+    expect(body.bytes).toBe(21)
+    done()
+  })
+})

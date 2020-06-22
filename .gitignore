@@ -3,3 +3,4 @@ yarn.lock
 coverage
 yarn-error.log
 .env
+uploads
