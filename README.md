@@ -1,6 +1,8 @@
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=tluolamo_boilerplate-project-filemetadata&metric=alert_status)](https://sonarcloud.io/dashboard?id=tluolamo_boilerplate-project-filemetadata)
 ![CircleCI](https://img.shields.io/circleci/build/github/tluolamo/boilerplate-project-filemetadata)
 [![codecov](https://codecov.io/gh/tluolamo/boilerplate-project-filemetadata/branch/gomix/graph/badge.svg)](https://codecov.io/gh/tluolamo/boilerplate-project-filemetadata)
+[![Dependency Status](https://david-dm.org/tluolamo/boilerplate-project-filemetadata.svg)](https://david-dm.org/tluolamo/boilerplate-project-filemetadata)
+[![Dev Dependency Status](https://david-dm.org/tluolamo/boilerplate-project-filemetadata/dev-status.svg)](https://david-dm.org/tluolamo/boilerplate-project-filemetadata)
 
 # API Project: File Metadata Microservice for freeCodeCamp
 
